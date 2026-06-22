@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LazyDaddy | Android Developer</title>
+    <title>LazyDaddy | App Developer</title>
     <meta
       name="description"
-      content="LazyDaddy is an independent Android developer creating practical apps that reduce friction in everyday life. Explore the LazyDaddy and JustListen apps."
+      content="LazyDaddy is an independent developer creating practical Android and Windows apps. Explore LazyDaddy, JustListen, and LazyDaddy Game Recording."
     >
-    <meta property="og:title" content="LazyDaddy | Android Developer">
+    <meta property="og:title" content="LazyDaddy | App Developer">
     <meta
       property="og:description"
-      content="The Android app portfolio of LazyDaddy, creator of LazyDaddy and JustListen."
+      content="The app portfolio of LazyDaddy, creator of LazyDaddy, JustListen, and LazyDaddy Game Recording."
     >
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ocxeverywhere.github.io/en/">
@@ -348,7 +348,7 @@
 
       .app-grid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 18px;
       }
 
@@ -371,6 +371,10 @@
 
       .app-card.green {
         border-top: 6px solid var(--green);
+      }
+
+      .app-card.gold {
+        border-top: 6px solid var(--gold);
       }
 
       .app-card__head {
@@ -660,12 +664,12 @@
       <section id="developer" class="hero" aria-labelledby="hero-title">
         <div class="hero-inner">
           <div>
-            <p class="eyebrow">Independent Android Developer</p>
+            <p class="eyebrow">Independent App Developer</p>
             <h1 id="hero-title">Building apps that make everyday routines a little lighter</h1>
             <p class="hero-lead">
-              LazyDaddy turns everyday frustrations into practical Android apps—from a storybook reader that
-              gives parents' voices a rest to a listening tool that helps people spend less time looking at a screen.
-              The goal is not to build the biggest platform, but to make one person's day noticeably easier.
+              LazyDaddy turns everyday frustrations into practical Android and Windows apps—from a storybook
+              reader that gives parents' voices a rest and a screen-free listening tool to a game recorder that
+              captures gameplay and commentary. The goal is to make one person's day noticeably easier.
             </p>
             <div class="hero-actions" aria-label="Primary actions">
               <a class="button" href="#apps">Explore the apps</a>
@@ -678,17 +682,17 @@
               <div class="avatar" aria-hidden="true">LD</div>
               <div>
                 <h2>LazyDaddy</h2>
-                <p>Android app developer and business owner</p>
+                <p>Android and Windows app developer · business owner</p>
               </div>
             </div>
             <dl class="developer-stats">
               <div>
                 <dt>Focus</dt>
-                <dd>Android</dd>
+                <dd>Android · Windows</dd>
               </div>
               <div>
                 <dt>Products</dt>
-                <dd>2 apps</dd>
+                <dd>3 apps</dd>
               </div>
               <div>
                 <dt>Contact</dt>
@@ -711,11 +715,11 @@
           <div class="section-heading">
             <div>
               <p class="eyebrow">App Pages</p>
-              <h2 id="apps-title">Two Android apps for everyday moments</h2>
+              <h2 id="apps-title">Three Android and Windows apps</h2>
             </div>
             <p>
               They address different situations, but share the same direction: making familiar content such as
-              paper books and videos easier to listen to, save, and return to when needed.
+              paper books, videos, and games easier to listen to, record, save, and return to when needed.
             </p>
           </div>
 
@@ -797,6 +801,43 @@
                 </a>
               </div>
             </article>
+
+            <article class="app-card gold">
+              <div>
+                <div class="app-card__head">
+                  <img
+                    src="https://ocxeverywhere.github.io/LazyDaddy-GameCapture/assets/lazydaddy-game-recording-icon.png"
+                    alt="LazyDaddy Game Recording app icon"
+                    width="64"
+                    height="64"
+                  >
+                  <div>
+                    <h3>LazyDaddy Game Recording</h3>
+                    <p class="app-card__label">Gameplay, webcam, and audio recording</p>
+                  </div>
+                </div>
+                <p class="app-card__copy">
+                  Record a game window or the full screen with an optional webcam PIP overlay, while keeping system
+                  and microphone audio on separate tracks. Recordings are saved directly as YouTube-ready MP4 files.
+                </p>
+                <ul class="tag-list" aria-label="Key LazyDaddy Game Recording features">
+                  <li>Windows Capture</li>
+                  <li>Webcam PIP</li>
+                  <li>Separate audio tracks</li>
+                  <li>Hardware H.264</li>
+                </ul>
+              </div>
+              <div class="app-card__footer">
+                <a class="button" href="https://ocxeverywhere.github.io/LazyDaddy-GameCapture/en/">Open app page</a>
+                <a
+                  class="text-link"
+                  href="https://storage.googleapis.com/lazydaddy0523/LazyDaddy-GameRecording-Setup-v1.0.0.exe"
+                  download
+                >
+                  Windows installer
+                </a>
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -829,7 +870,7 @@
             <article class="principle">
               <b>03</b>
               <h3>Ship small and keep improving</h3>
-              <p>Put useful Android apps in real users' hands first, then refine each feature as its practical use becomes clearer.</p>
+              <p>Put useful apps in real users' hands first, then refine each feature as its practical use becomes clearer.</p>
             </article>
           </div>
         </div>
@@ -841,7 +882,7 @@
             <p class="eyebrow">Business &amp; Contact</p>
             <h2 id="contact-title">Developer and business information</h2>
             <p>
-              For app support, privacy policy questions, or Android developer business verification, please use
+              For app support, privacy policy questions, or developer business verification, please use
               the email address below. Detailed policies for each product are available on the individual app pages.
             </p>
           </div>
@@ -874,6 +915,7 @@
         <div class="footer-links" aria-label="Footer links">
           <a href="https://ocxeverywhere.github.io/LazyDaddy/en/">LazyDaddy</a>
           <a href="https://ocxeverywhere.github.io/JustListen-DigitalDetox/">JustListen</a>
+          <a href="https://ocxeverywhere.github.io/LazyDaddy-GameCapture/en/">Game Recording</a>
           <a href="mailto:ocxeverywhere@gmail.com">Contact</a>
         </div>
       </div>
