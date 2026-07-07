@@ -522,6 +522,28 @@
         font-weight: 900;
       }
 
+      .contact-side {
+        display: grid;
+        gap: 16px;
+      }
+
+      .support-block {
+        border: 1px solid var(--line);
+        padding: 20px;
+        background: var(--surface);
+      }
+
+      .support-block p {
+        margin: 0 0 14px;
+        color: var(--muted);
+        font-size: 0.98rem;
+        font-weight: 800;
+      }
+
+      .support-block .kofi-widget {
+        min-height: 45px;
+      }
+
       .site-footer {
         border-top: 1px solid var(--line);
         padding: 26px 24px;
@@ -818,12 +840,13 @@
                 </div>
                 <p class="app-card__copy">
                   Record a game window or the full screen with an optional webcam PIP overlay, while keeping system
-                  and microphone audio on separate tracks. Recordings are saved directly as YouTube-ready MP4 files.
+                  and microphone audio in one combined audio track. Recordings are saved directly as YouTube-ready
+                  MP4 files.
                 </p>
                 <ul class="tag-list" aria-label="Key LazyDaddy Game Recording features">
                   <li>Windows Capture</li>
                   <li>Webcam PIP</li>
-                  <li>Separate audio tracks</li>
+                  <li>Combined audio track</li>
                   <li>Hardware H.264</li>
                 </ul>
               </div>
@@ -831,10 +854,11 @@
                 <a class="button" href="https://ocxeverywhere.github.io/LazyDaddy-GameCapture/en/">Open app page</a>
                 <a
                   class="text-link"
-                  href="https://storage.googleapis.com/lazydaddy0523/LazyDaddy-GameRecording-Setup-v1.0.0.exe"
-                  download
+                  href="https://apps.microsoft.com/detail/9p8d08c3dr9t?hl=en-GB&gl=FI"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Windows installer
+                  Microsoft Store
                 </a>
               </div>
             </article>
@@ -887,24 +911,36 @@
             </p>
           </div>
 
-          <dl class="info-list" aria-label="Business information">
-            <div>
-              <dt>Business name</dt>
-              <dd>LazyDaddy</dd>
-            </div>
-            <div>
-              <dt>Registration no.</dt>
-              <dd>426-19-02556</dd>
-            </div>
-            <div>
-              <dt>Address</dt>
-              <dd>11, Dabok 1-gil, Dong-gu, Daejeon, Republic of Korea</dd>
-            </div>
-            <div>
-              <dt>Contact</dt>
-              <dd><a href="mailto:ocxeverywhere@gmail.com">ocxeverywhere@gmail.com</a></dd>
-            </div>
-          </dl>
+          <div class="contact-side">
+            <dl class="info-list" aria-label="Business information">
+              <div>
+                <dt>Business name</dt>
+                <dd>LazyDaddy</dd>
+              </div>
+              <div>
+                <dt>Registration no.</dt>
+                <dd>426-19-02556</dd>
+              </div>
+              <div>
+                <dt>Address</dt>
+                <dd>11, Dabok 1-gil, Dong-gu, Daejeon, Republic of Korea</dd>
+              </div>
+              <div>
+                <dt>Contact</dt>
+                <dd><a href="mailto:ocxeverywhere@gmail.com">ocxeverywhere@gmail.com</a></dd>
+              </div>
+            </dl>
+
+            <aside class="support-block" aria-label="Support LazyDaddy">
+              <p>Support the development of LazyDaddy.</p>
+              <div class="kofi-widget"></div>
+              <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+              <script>
+                kofiwidget2.init("Support me on Ko-fi", "#72a4f2", "W4I222SBAF");
+                kofiwidget2.draw();
+              </script>
+            </aside>
+          </div>
         </div>
       </section>
     </main>
