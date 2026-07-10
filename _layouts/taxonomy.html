@@ -5,19 +5,32 @@ layout: default
 <div class="blog-shell">
   <header class="blog-hero"><h1>{{ page.title }}</h1></header>
   {% assign language_posts = site.posts | where: 'lang', language %}
-  {% assign values = '' | split: '' %}
+  {% if page.taxonomy == 'categories' %}
+    {% assign values = site.data.blog_categories[language] | default: empty %}
+  {% else %}
+    {% assign values = '' | split: '' %}
+  {% endif %}
   {% for post in language_posts %}
     {% assign entries = post[page.taxonomy] %}
     {% for entry in entries %}{% assign values = values | push: entry %}{% endfor %}
   {% endfor %}
-  {% assign values = values | uniq | sort %}
+  {% assign values = values | uniq %}
+  {% unless page.taxonomy == 'categories' %}
+    {% assign values = values | sort %}
+  {% endunless %}
   {% for value in values %}
     <section class="taxonomy-group">
       <h2 id="{{ value | slugify }}">{{ value }}</h2>
+      {% assign post_count = 0 %}
       {% for post in language_posts %}
-        {% if post[page.taxonomy] contains value %}{% include post-card.html post=post %}{% endif %}
+        {% if post[page.taxonomy] contains value %}
+          {% assign post_count = post_count | plus: 1 %}
+          {% include post-card.html post=post %}
+        {% endif %}
       {% endfor %}
+      {% if post_count == 0 %}
+        <p>{% if language == 'ko' %}아직 게시물이 없습니다.{% else %}No posts yet.{% endif %}</p>
+      {% endif %}
     </section>
   {% endfor %}
 </div>
-
