@@ -4,9 +4,6 @@
     {% for translation in translations %}<link rel="alternate" hreflang="{{ translation.lang }}" href="{{ translation.url | absolute_url }}">{% endfor %}
     {% assign english = translations | where: 'lang', 'en' | first %}{% if english %}<link rel="alternate" hreflang="x-default" href="{{ english.url | absolute_url }}">{% endif %}
   {% endif %}
-{% elsif page.url == '/' %}
-  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
-  <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
-  <link rel="alternate" hreflang="ko" href="{{ '/ko/' | absolute_url }}">
+{% elsif page.translation_url %}
+  {% if page.lang == 'ko' %}<link rel="alternate" hreflang="ko" href="{{ page.url | absolute_url }}"><link rel="alternate" hreflang="en" href="{{ page.translation_url | absolute_url }}"><link rel="alternate" hreflang="x-default" href="{{ page.translation_url | absolute_url }}">{% else %}<link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}"><link rel="alternate" hreflang="ko" href="{{ page.translation_url | absolute_url }}"><link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">{% endif %}
 {% endif %}
-

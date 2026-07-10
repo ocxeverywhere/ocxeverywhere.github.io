@@ -1,18 +1,31 @@
 ---
 layout: default
 title: OCX Everywhere
-description: Practical Android and Windows apps from independent developer LazyDaddy.
-lang: en
+description: 생활의 작은 반복을 줄이는 Android 및 Windows 앱과 개발 기록을 소개합니다.
+lang: ko
+translation_url: /en/
 ---
 <section class="portal-hero">
-  <div><p class="eyebrow">Independent app studio</p><h1>Small tools that make everyday routines lighter.</h1><p>OCX Everywhere builds focused Android and Windows apps for reading, listening, and recording—then shares the product and engineering lessons behind them.</p><div class="actions"><a class="button" href="#apps">Explore apps</a><a class="button secondary" href="/en/">Read the blog</a></div></div>
-  <aside><span class="brand-mark large">OCX</span><h2>LazyDaddy</h2><p>Android · Windows · Practical automation</p></aside>
+  <div>
+    <p class="eyebrow">Independent App Developer</p>
+    <h1>생활의 작은 반복을 앱으로 줄입니다.</h1>
+    <p>LazyDaddy는 종이책을 읽고, 화면 없이 영상을 듣고, 게임과 목소리를 기록하는 실용적인 Android·Windows 앱을 만듭니다.</p>
+    <div class="actions"><a class="button" href="#apps">앱 둘러보기</a><a class="button secondary" href="/blog/">블로그 읽기</a></div>
+  </div>
+  <aside><span class="brand-mark large">OCX</span><h2>LazyDaddy</h2><p>Android · Windows · 생활을 위한 자동화</p></aside>
 </section>
 
-<section id="apps" class="portal-section"><header><p class="eyebrow">Products</p><h2>Apps built around real routines</h2></header><div class="app-grid">
-{% for app in site.data.apps %}<article class="app-card {{ app.color }}"><img src="{{ app.icon }}" alt="{{ app.name }} app icon" width="64" height="64"><h3>{{ app.name }}</h3><p>{{ app.label }}</p><div class="actions"><a href="{{ app.site_en }}">Website</a><a href="{{ app.store }}" data-event="store_link_click" data-app="{{ app.id }}">Store</a></div></article>{% endfor %}
-</div></section>
+<section id="apps" class="portal-section">
+  <header><p class="eyebrow">Apps</p><h2>일상의 문제에서 시작한 앱</h2></header>
+  <div class="app-grid">
+    {% for app in site.data.apps %}<article class="app-card {{ app.color }}"><img src="{{ app.icon }}" alt="{{ app.name }} 앱 아이콘" width="64" height="64"><h3>{{ app.name }}</h3><p>{{ app.label_ko }}</p><div class="actions"><a href="{{ app.site_ko }}">앱 페이지</a><a href="{{ app.store }}" data-event="store_link_click" data-app="{{ app.id }}">스토어</a></div></article>{% endfor %}
+  </div>
+</section>
 
-<section class="portal-section split"><div><p class="eyebrow">English</p><h2>Latest notes</h2>{% assign en_posts = site.posts | where: 'lang', 'en' %}{% for post in en_posts limit:3 %}{% include post-card.html post=post %}{% endfor %}<a class="more" href="/en/">All English posts →</a></div><div lang="ko"><p class="eyebrow">한국어</p><h2>최신 글</h2>{% assign ko_posts = site.posts | where: 'lang', 'ko' %}{% for post in ko_posts limit:3 %}{% include post-card.html post=post %}{% endfor %}<a class="more" href="/ko/">한국어 글 전체 보기 →</a></div></section>
+<section class="portal-section">
+  <p class="eyebrow">Blog</p><h2>최신 개발 기록</h2>
+  {% assign ko_posts = site.posts | where: 'lang', 'ko' %}{% for post in ko_posts limit:3 %}{% include post-card.html post=post %}{% else %}<p>한국어 글을 준비하고 있습니다.</p>{% endfor %}
+  <a class="more" href="/blog/">한국어 블로그 전체 보기 →</a>
+</section>
 
-<section class="portal-section contact"><div><p class="eyebrow">Developer</p><h2>Built independently, improved continuously.</h2><p>Questions about an app, privacy, or a collaboration are welcome.</p></div><div><a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a><a href="{{ site.data.site.support_url }}" data-event="donation_click">Support on Ko-fi</a></div></section>
+<section class="portal-section contact"><div><p class="eyebrow">Developer</p><h2>작게 출시하고 꾸준히 개선합니다.</h2><p>앱 지원, 개인정보처리방침 또는 협업에 관한 문의를 환영합니다.</p></div><div><a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a><a href="{{ site.data.site.support_url }}" data-event="donation_click">Ko-fi에서 후원하기</a></div></section>

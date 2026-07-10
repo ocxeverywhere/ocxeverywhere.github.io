@@ -8,9 +8,10 @@ layout: default
     <h1>{{ page.title }}</h1>
     <p>{{ page.description }}</p>
     <nav class="taxonomy-links" aria-label="Blog sections">
-      <a href="/{{ language }}/categories/">{% if language == 'ko' %}카테고리{% else %}Categories{% endif %}</a>
-      <a href="/{{ language }}/tags/">{% if language == 'ko' %}태그{% else %}Tags{% endif %}</a>
-      <a href="/{{ language }}/feed.xml">RSS</a>
+      {% if language == 'ko' %}{% assign blog_base = '/blog' %}{% else %}{% assign blog_base = '/en/blog' %}{% endif %}
+      <a href="{{ blog_base }}/categories/">{% if language == 'ko' %}카테고리{% else %}Categories{% endif %}</a>
+      <a href="{{ blog_base }}/tags/">{% if language == 'ko' %}태그{% else %}Tags{% endif %}</a>
+      <a href="{{ blog_base }}/feed.xml">RSS</a>
     </nav>
   </header>
   {% assign language_posts = site.posts | where: 'lang', language %}
@@ -22,4 +23,3 @@ layout: default
     {% endfor %}
   </section>
 </div>
-

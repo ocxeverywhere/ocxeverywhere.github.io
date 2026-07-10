@@ -4,7 +4,7 @@ description: Independent Android and Windows apps, product stories, and engineer
 url: https://ocxeverywhere.github.io
 baseurl: ""
 timezone: Europe/Helsinki
-lang: en
+lang: ko
 theme: jekyll-theme-chirpy
 
 author:
@@ -45,6 +45,7 @@ defaults:
       layout: post
       lang: en
       author: LazyDaddy
+      permalink: /en/blog/posts/:title/
   - scope:
       path: "_posts/ko"
       type: posts
@@ -52,14 +53,11 @@ defaults:
       layout: post
       lang: ko
       author: LazyDaddy
+      permalink: /blog/posts/:title/
   - scope:
       path: "en"
     values:
       lang: en
-  - scope:
-      path: "ko"
-    values:
-      lang: ko
 
 exclude:
   - README.md
@@ -67,4 +65,3 @@ exclude:
   - Gemfile.lock
   - vendor
   - .agents
-

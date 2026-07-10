@@ -1,16 +1,16 @@
 # OCX Everywhere
 
-OCX Everywhere is the Jekyll site for LazyDaddy's app portfolio and multilingual blog. The root page introduces the apps, while English and Korean posts are published under separate URL namespaces.
+OCX Everywhere is the Jekyll site for LazyDaddy's bilingual app portfolio and blog. Korean pages use root-level routes, while English pages use the `/en/` namespace.
 
 ## Site structure
 
-- `/` — app and developer portal
-- `/en/` — English blog
-- `/ko/` — Korean blog
-- `/about/` — developer and site background
-- `/support/` — app support and project support links
-- `/contact/` — contact and business information
-- `/privacy/` — privacy information for this website
+- `/` — Korean app and developer portal
+- `/blog/` — Korean blog
+- `/about/`, `/support/`, `/contact/`, `/privacy/` — Korean static pages
+- `/en/` — English app and developer portal
+- `/en/blog/` — English blog
+- `/en/about/`, `/en/support/`, `/en/contact/`, `/en/privacy/` — English static pages
+- `/ko/` — compatibility page pointing visitors to the Korean portal
 
 App metadata is maintained in `_data/apps.yml`. Shared brand, contact, and business details are maintained in `_data/site.yml`.
 
@@ -36,10 +36,10 @@ The generated site is written to `_site/`.
 1. Copy `_templates/post-en.md` or `_templates/post-ko.md` into the matching `_posts/en/` or `_posts/ko/` directory.
 2. Rename it with the Jekyll date prefix: `YYYY-MM-DD-short-slug.md`.
 3. Replace every placeholder and keep `lang` consistent with the directory.
-4. Set an explicit permalink under `/en/posts/` or `/ko/posts/`.
+4. Set an explicit permalink under `/en/blog/posts/` or `/blog/posts/`.
 5. Add an image only when both `image.path` and meaningful `image.alt` text are available.
 
-Use the same `translation_key` on two posts only when both language versions exist. A post without a translation should omit the field.
+Use the same `translation_key` on two posts only when both language versions exist. A post without a translation should omit the field; its language switcher will lead to the other language's blog home.
 
 ## Add images
 

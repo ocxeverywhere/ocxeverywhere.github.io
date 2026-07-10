@@ -1,0 +1,7 @@
+---
+layout: null
+permalink: /blog/feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><title>{{ site.title | xml_escape }} — 한국어</title><link href="{{ '/blog/feed.xml' | absolute_url }}" rel="self"/><link href="{{ '/blog/' | absolute_url }}"/><updated>{{ site.time | date_to_xmlschema }}</updated><id>{{ '/blog/' | absolute_url }}</id>{% assign posts = site.posts | where: 'lang', 'ko' %}{% for post in posts limit:20 %}<entry><title>{{ post.title | xml_escape }}</title><link href="{{ post.url | absolute_url }}"/><id>{{ post.url | absolute_url }}</id><updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated><summary>{{ post.description | xml_escape }}</summary></entry>{% endfor %}</feed>
+

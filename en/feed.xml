@@ -1,7 +1,0 @@
----
-layout: null
-permalink: /en/feed.xml
----
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><title>{{ site.title | xml_escape }} — English</title><link href="{{ '/en/feed.xml' | absolute_url }}" rel="self"/><link href="{{ '/en/' | absolute_url }}"/><updated>{{ site.time | date_to_xmlschema }}</updated><id>{{ '/en/' | absolute_url }}</id>{% assign posts = site.posts | where: 'lang', 'en' %}{% for post in posts limit:20 %}<entry><title>{{ post.title | xml_escape }}</title><link href="{{ post.url | absolute_url }}"/><id>{{ post.url | absolute_url }}</id><updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated><summary>{{ post.description | xml_escape }}</summary></entry>{% endfor %}</feed>
-

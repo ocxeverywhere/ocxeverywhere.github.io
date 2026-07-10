@@ -1,12 +1,17 @@
 <header class="site-header">
-  <nav class="nav" aria-label="Primary navigation">
-    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">OCX</span><span>OCX Everywhere</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
+  {% assign language = page.lang | default: site.lang %}
+  {% assign home_url = '/' %}{% if language == 'en' %}{% assign home_url = '/en/' %}{% endif %}
+  {% assign other_url = page.translation_url %}
+  {% if page.translation_key %}{% assign translations = site.posts | where: 'translation_key', page.translation_key %}{% if translations.size > 1 %}{% if language == 'ko' %}{% assign other_post = translations | where: 'lang', 'en' | first %}{% else %}{% assign other_post = translations | where: 'lang', 'ko' | first %}{% endif %}{% if other_post %}{% assign other_url = other_post.url %}{% endif %}{% endif %}{% endif %}
+  {% unless other_url %}{% if page.layout == 'post' %}{% if language == 'ko' %}{% assign other_url = '/en/blog/' %}{% else %}{% assign other_url = '/blog/' %}{% endif %}{% elsif language == 'ko' %}{% assign other_url = '/en/' %}{% else %}{% assign other_url = '/' %}{% endif %}{% endunless %}
+  <nav class="nav" aria-label="{% if language == 'ko' %}주요 메뉴{% else %}Primary navigation{% endif %}">
+    <a class="brand" href="{{ home_url | relative_url }}"><span class="brand-mark">OCX</span><span>OCX Everywhere</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">{% if language == 'ko' %}메뉴{% else %}Menu{% endif %}</button>
     <div id="site-navigation" class="nav-links">
-      {% for item in site.data.navigation %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
-      {% if page.lang == 'ko' %}<a href="{{ '/ko/search/' | relative_url }}">검색</a>{% elsif page.lang == 'en' %}<a href="{{ '/en/search/' | relative_url }}">Search</a>{% endif %}
+      {% for item in site.data.navigation[language] %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
+      {% if page.layout == 'blog' or page.layout == 'taxonomy' or page.layout == 'search' or page.layout == 'post' %}{% if language == 'ko' %}<a href="{{ '/blog/search/' | relative_url }}">검색</a>{% else %}<a href="{{ '/en/blog/search/' | relative_url }}">Search</a>{% endif %}{% endif %}
       <span class="language-switcher" aria-label="Language">
-        <a href="{{ '/en/' | relative_url }}" lang="en">EN</a><a href="{{ '/ko/' | relative_url }}" lang="ko">한국어</a>
+        {% if language == 'ko' %}<span aria-current="page">한국어</span><a href="{{ other_url | relative_url }}" lang="en" data-event="language_switch">EN</a>{% else %}<span aria-current="page">EN</span><a href="{{ other_url | relative_url }}" lang="ko" data-event="language_switch">한국어</a>{% endif %}
       </span>
     </div>
   </nav>
