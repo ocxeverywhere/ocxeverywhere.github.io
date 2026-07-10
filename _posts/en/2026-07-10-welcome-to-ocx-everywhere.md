@@ -5,7 +5,7 @@ date: 2026-07-10 09:00:00 +0300
 lang: en
 categories: [Updates]
 tags: [ocx-everywhere, apps]
-permalink: /en/posts/welcome-to-ocx-everywhere/
+permalink: /en/blog/posts/welcome-to-ocx-everywhere/
 author: LazyDaddy
 ---
 
@@ -21,7 +21,7 @@ Articles may cover:
 - Focused guides for using an app
 - Engineering notes from Android and Windows development
 
-The [English Blog](/en/) lists English posts. Korean-section posts have their own index at [한국어 블로그](/ko/), so readers can stay within their preferred language.
+The [English Blog](/en/blog/) lists English posts. Korean posts have their own index at [한국어 블로그](/blog/), so readers can stay within their preferred language.
 
 ## Find an app
 
@@ -29,4 +29,4 @@ The [OCX Everywhere portal](/#apps) links to the current app websites and store 
 
 ## Get in touch
 
-For product support, use the relevant app website or visit the [support page](/support/). Questions about the site or business inquiries can be sent through the [contact page](/contact/).
+For product support, use the relevant app website or visit the [support page](/en/support/). Questions about the site or business inquiries can be sent through the [contact page](/en/contact/).

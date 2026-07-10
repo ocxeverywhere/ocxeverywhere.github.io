@@ -1,30 +1,30 @@
 ---
-title: "Korean Blog Sample — Replace Before Publication"
-description: "A technically valid Korean-section sample post that must be replaced with reviewed Korean copy before publication."
+title: "한국어 블로그 예시 — 게시 전 교체"
+description: "게시 전에 검토된 한국어 콘텐츠로 교체해야 하는 비공개 예시 글입니다."
 date: 2026-07-10 09:05:00 +0300
 lang: ko
 categories: [Updates]
 tags: [sample]
-permalink: /ko/posts/korean-blog-sample/
+permalink: /blog/posts/korean-blog-sample/
 author: LazyDaddy
 published: false
 ---
 
-# Korean Blog Sample — Replace Before Publication
+# 한국어 블로그 예시 — 게시 전 교체
 
-This unpublished file demonstrates the required structure for a post in the Korean section. Replace the title, description, body, category, tags, and permalink with reviewed Korean copy before setting `published: true`.
+이 비공개 파일은 한국어 글의 필수 구조를 보여 주는 예시입니다. `published: true`로 변경하기 전에 제목, 설명, 본문, 카테고리, 태그와 permalink를 검토된 한국어 콘텐츠로 교체하세요.
 
-## Intended use
+## 사용 방법
 
-- Keep `lang: ko` so the post appears only in the Korean section.
-- Keep the permalink under `/ko/posts/`.
-- Replace all editorial content instead of publishing this guidance.
-- Add `translation_key` only when a matching English post exists.
+- 글이 한국어 영역에만 표시되도록 `lang: ko`를 유지하세요.
+- permalink는 `/blog/posts/` 아래에 두세요.
+- 이 안내문을 그대로 게시하지 말고 모든 본문을 실제 콘텐츠로 교체하세요.
+- 대응하는 영문 글이 있을 때만 `translation_key`를 추가하세요.
 
-## Content checklist
+## 콘텐츠 확인 목록
 
-Confirm that the finished article has a clear introduction, verified product details, useful headings, and one next action. If an image is added, provide `image.path` and meaningful `image.alt` text in front matter.
+완성된 글에 명확한 도입부, 확인된 제품 정보, 유용한 제목과 독자가 실행할 다음 작업이 있는지 확인하세요. 이미지를 추가하면 front matter에 `image.path`와 의미 있는 `image.alt` 텍스트를 입력하세요.
 
-## Publication check
+## 게시 전 확인
 
-Preview the site and verify the post on the Korean blog, category page, tag page, search page, and feed before publication.
+게시하기 전에 사이트를 미리 보고 한국어 블로그, 카테고리, 태그, 검색 페이지와 피드에서 글을 확인하세요.

@@ -1,11 +1,23 @@
-- title: Portal
-  url: /
-- title: English Blog
-  url: /en/
-- title: 한국어 블로그
-  url: /ko/
-- title: About
-  url: /about/
-- title: Support
-  url: /support/
+ko:
+  - title: 홈
+    url: /
+  - title: 앱
+    url: /#apps
+  - title: 블로그
+    url: /blog/
+  - title: 소개
+    url: /about/
+  - title: 후원
+    url: /support/
+en:
+  - title: Home
+    url: /en/
+  - title: Apps
+    url: /en/#apps
+  - title: Blog
+    url: /en/blog/
+  - title: About
+    url: /en/about/
+  - title: Support
+    url: /en/support/
 
