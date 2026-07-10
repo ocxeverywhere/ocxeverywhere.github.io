@@ -1,0 +1,12 @@
+{% if page.translation_key %}
+  {% assign translations = site.posts | where: 'translation_key', page.translation_key %}
+  {% if translations.size > 1 %}
+    {% for translation in translations %}<link rel="alternate" hreflang="{{ translation.lang }}" href="{{ translation.url | absolute_url }}">{% endfor %}
+    {% assign english = translations | where: 'lang', 'en' | first %}{% if english %}<link rel="alternate" hreflang="x-default" href="{{ english.url | absolute_url }}">{% endif %}
+  {% endif %}
+{% elsif page.url == '/' %}
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
+  <link rel="alternate" hreflang="ko" href="{{ '/ko/' | absolute_url }}">
+{% endif %}
+

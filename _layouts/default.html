@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    <link rel="alternate" type="application/atom+xml" title="All posts" href="{{ '/feed.xml' | absolute_url }}">
+    {% if page.lang %}<link rel="alternate" type="application/atom+xml" title="{{ page.lang }} posts" href="{{ '/' | append: page.lang | append: '/feed.xml' | absolute_url }}">{% endif %}
+    {% include hreflang.html %}
+  </head>
+  <body class="page-{{ page.layout | default: 'default' }}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    {% include header.html %}
+    <main id="main-content">{{ content }}</main>
+    {% include footer.html %}
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+  </body>
+</html>
+

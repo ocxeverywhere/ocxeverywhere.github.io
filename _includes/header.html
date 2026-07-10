@@ -1,0 +1,14 @@
+<header class="site-header">
+  <nav class="nav" aria-label="Primary navigation">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">OCX</span><span>OCX Everywhere</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
+    <div id="site-navigation" class="nav-links">
+      {% for item in site.data.navigation %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
+      {% if page.lang == 'ko' %}<a href="{{ '/ko/search/' | relative_url }}">검색</a>{% elsif page.lang == 'en' %}<a href="{{ '/en/search/' | relative_url }}">Search</a>{% endif %}
+      <span class="language-switcher" aria-label="Language">
+        <a href="{{ '/en/' | relative_url }}" lang="en">EN</a><a href="{{ '/ko/' | relative_url }}" lang="ko">한국어</a>
+      </span>
+    </div>
+  </nav>
+</header>
+{% if site.analytics.google.id != empty %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.id }}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.analytics.google.id }}');</script>{% endif %}
