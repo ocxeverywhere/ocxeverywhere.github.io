@@ -14,8 +14,8 @@ OCX Everywhere는 LazyDaddy가 만드는 실용적인 Android 및 Windows 앱을
 ## 이곳에서 볼 수 있는 내용
 
 - 현재 제품의 앱 페이지와 스토어 링크
-- [한국어 블로그](/blog/)의 제품 및 개발 기록
-- [English Blog](/en/blog/)의 영문 글
+- [블로그](/blog/)의 제품 및 개발 기록
+- [Blog](/en/blog/)의 영문 글
 - 각 제품의 지원 및 개인정보처리방침 링크
 
 ## 현재 앱
