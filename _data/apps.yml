@@ -1,0 +1,28 @@
+- id: lazydaddy
+  name: LazyDaddy
+  color: blue
+  icon: https://ocxeverywhere.github.io/LazyDaddy/assets/lazydaddy-icon.png
+  site: https://ocxeverywhere.github.io/LazyDaddy/
+  site_en: https://ocxeverywhere.github.io/LazyDaddy/en/
+  store: https://play.google.com/store/apps/details?id=io.ocxeverywhere.easyreader
+  label: Storybook OCR + AI narration
+  label_ko: 동화책 OCR + AI 음성 낭독
+- id: justlisten
+  name: JustListen
+  color: green
+  icon: https://ocxeverywhere.github.io/JustListen-DigitalDetox/assets/justlisten-icon.png
+  site: https://ocxeverywhere.github.io/JustListen-DigitalDetox/
+  site_en: https://ocxeverywhere.github.io/JustListen-DigitalDetox/
+  store: https://play.google.com/store/apps/details?id=io.ocxeverywhere.justlisten
+  label: Screen-free, subtitle-based listening
+  label_ko: 자막 기반 화면 없는 듣기
+- id: game-recording
+  name: LazyDaddy Game Recording
+  color: gold
+  icon: https://ocxeverywhere.github.io/LazyDaddy-GameCapture/assets/lazydaddy-game-recording-icon.png
+  site: https://ocxeverywhere.github.io/LazyDaddy-GameCapture/
+  site_en: https://ocxeverywhere.github.io/LazyDaddy-GameCapture/en/
+  store: https://apps.microsoft.com/detail/9p8d08c3dr9t?hl=en-GB&gl=FI
+  label: Gameplay, webcam, and audio recording
+  label_ko: 게임·웹캠·오디오 녹화
+

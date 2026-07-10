@@ -1,0 +1,70 @@
+title: OCX Everywhere
+tagline: Practical apps and engineering notes
+description: Independent Android and Windows apps, product stories, and engineering notes from LazyDaddy.
+url: https://ocxeverywhere.github.io
+baseurl: ""
+timezone: Europe/Helsinki
+lang: en
+theme: jekyll-theme-chirpy
+
+author:
+  name: LazyDaddy
+  email: ocxeverywhere@gmail.com
+
+social:
+  name: LazyDaddy
+  email: ocxeverywhere@gmail.com
+  links:
+    - https://github.com/ocxeverywhere
+
+github:
+  username: ocxeverywhere
+
+analytics:
+  google:
+    id: ""
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+
+paginate: 10
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "_posts/en"
+      type: posts
+    values:
+      layout: post
+      lang: en
+      author: LazyDaddy
+  - scope:
+      path: "_posts/ko"
+      type: posts
+    values:
+      layout: post
+      lang: ko
+      author: LazyDaddy
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: "ko"
+    values:
+      lang: ko
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .agents
+

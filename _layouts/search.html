@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<div class="blog-shell search-shell" data-search-lang="{{ page.lang }}">
+  <header class="blog-hero"><h1>{{ page.title }}</h1><p>{{ page.description }}</p></header>
+  <label for="search-input">{% if page.lang == 'ko' %}검색어{% else %}Search terms{% endif %}</label>
+  <input id="search-input" class="search-input" type="search" autocomplete="off">
+  <div id="search-results" class="post-list" aria-live="polite"></div>
+</div>
+
