@@ -14,8 +14,8 @@ OCX Everywhere is the home of practical Android and Windows apps made by LazyDad
 ## What you will find here
 
 - App pages and store links for the current products
-- English articles at [English Blog](/en/blog/)
-- Korean articles at [한국어 블로그](/blog/)
+- English articles at [Blog](/en/blog/)
+- Korean articles at [블로그](/blog/)
 - Links to each product's own support and privacy information
 
 ## Current apps
