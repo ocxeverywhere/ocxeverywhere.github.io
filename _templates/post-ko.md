@@ -2,12 +2,17 @@
 title: "TODO: 한국어 글 제목"
 description: "TODO: 검색 결과와 글 카드에 표시할 한 문장 요약"
 date: 2026-07-10 09:00:00 +0300
+last_modified_at: 2026-07-10 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "TODO: 글을 설명하는 대표 이미지 대체 텍스트"
 lang: ko
 categories: [TODO]
 tags: [TODO]
 permalink: /blog/posts/todo-slug/
 author: LazyDaddy
 published: false
+sitemap: false
 ---
 
 # TODO: 한국어 글 제목

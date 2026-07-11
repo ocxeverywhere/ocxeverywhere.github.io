@@ -1,6 +1,10 @@
 ---
 title: "[육아 꿀팁] 엄빠들의 자유 시간을 위한 육아 자동화 필수앱 추천! (feat. 책 읽어주는 앱)"
 description: "아이의 독서 습관을 돕고 부모에게 잠시 쉴 시간을 만들어 주는 책 읽어주는 앱 LazyDaddy를 소개합니다."
+last_modified_at: 2026-06-22 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy 앱 아이콘과 브랜드 이름"
 date: 2026-06-22 19:57:00 +0300
 lang: ko
 categories: [LazyDaddy]
@@ -52,9 +56,9 @@ translation_key: parenting-automation-storybook-app
 
 아이가 집중해서 책을 보는 귀여운 모습과 생생한 영상이 궁금하신 분들은 아래 유튜브 링크에서 직접 확인해 보세요! 👇
 
-🎥 **영상 보러가기:** [LazyDaddy - 육아 자동화 필수앱](https://www.youtube.com/watch?v=yPZvwTo6rQQ)
+{% include youtube-embed.html id="yPZvwTo6rQQ" title="LazyDaddy - 육아 자동화 필수앱" %}
 
-[LazyDaddy - Google Play에서 만나보세요](https://play.google.com/store/apps/details?id=io.ocxeverywhere.easyreader)
+{% include link-preview.html url="https://play.google.com/store/apps/details?id=io.ocxeverywhere.easyreader" title="LazyDaddy - Google Play에서 만나보세요" description="사진으로 동화책을 인식하고 자연스러운 음성으로 읽어주는 Android 앱입니다." image="/assets/images/posts/lazydaddy-app.png" alt="LazyDaddy 앱 아이콘" %}
 
 오늘도 세상의 모든 부모님들, 힘내세요! 화이팅! ❤️
 

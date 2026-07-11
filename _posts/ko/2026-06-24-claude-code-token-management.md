@@ -1,6 +1,10 @@
 ---
 title: "[앱 개발 도전기 #2]클로드 코드 - 토큰 소모량을 관리하자"
 description: "Claude Code의 모델 선택, 병렬 에이전트, 테스트, 리뷰와 세션 관리로 토큰을 효율적으로 사용하는 방법을 정리합니다."
+last_modified_at: 2026-06-24 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy 앱 아이콘과 브랜드 이름"
 date: 2026-06-24 21:27:00 +0300
 lang: ko
 categories: [앱 개발]

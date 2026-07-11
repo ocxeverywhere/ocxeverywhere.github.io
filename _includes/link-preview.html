@@ -1,0 +1,10 @@
+<a class="link-preview" href="{{ include.url }}" target="_blank" rel="noopener noreferrer{% if include.sponsored %} sponsored{% endif %}">
+  <span class="link-preview__media">
+    <img src="{{ include.image | relative_url }}" alt="{{ include.alt | escape }}" loading="lazy" decoding="async">
+  </span>
+  <span class="link-preview__body">
+    <strong>{{ include.title }}</strong>
+    {% if include.description %}<span>{{ include.description }}</span>{% endif %}
+    <small>{{ include.url | remove: 'https://' | remove: 'http://' | split: '/' | first }} ↗</small>
+  </span>
+</a>

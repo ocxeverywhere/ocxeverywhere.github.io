@@ -1,0 +1,24 @@
+{% if page.layout == 'post' %}
+{% assign seo_image = page.image.path | default: page.image | default: site.image %}
+{% assign seo_modified = page.last_modified_at | default: page.date %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ page.url | absolute_url | jsonify }} },
+  "url": {{ page.url | absolute_url | jsonify }},
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: site.description | jsonify }},
+  "image": {{ seo_image | absolute_url | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ seo_modified | date_to_xmlschema | jsonify }},
+  "inLanguage": {{ page.lang | default: site.lang | jsonify }},
+  "author": { "@type": "Person", "name": {{ page.author | default: site.author.name | jsonify }} },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.publisher.name | default: site.title | jsonify }},
+    "logo": { "@type": "ImageObject", "url": {{ site.publisher.image | absolute_url | jsonify }} }
+  }
+}
+</script>
+{% endif %}

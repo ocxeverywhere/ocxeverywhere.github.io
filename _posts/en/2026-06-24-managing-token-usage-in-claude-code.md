@@ -1,6 +1,10 @@
 ---
 title: "[App Development Challenge #2] Claude Code — Managing Token Usage"
 description: "How to use Claude Code tokens efficiently through model selection, parallel agents, testing, reviews, and session management."
+last_modified_at: 2026-06-24 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy app icon and brand name"
 date: 2026-06-24 21:27:00 +0300
 lang: en
 categories: [App Development]

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
+    {% include post-seo.html %}
     {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
     <link rel="alternate" type="application/atom+xml" title="All posts" href="{{ '/feed.xml' | absolute_url }}">

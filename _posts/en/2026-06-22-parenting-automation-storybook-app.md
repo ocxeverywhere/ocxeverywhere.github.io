@@ -1,6 +1,10 @@
 ---
 title: "[Parenting Tip] A Must-Have Parenting Automation App That Gives Parents More Free Time! (feat. a Read-Aloud App)"
 description: "Meet LazyDaddy, a read-aloud app that helps children build a reading habit while giving parents a moment to rest."
+last_modified_at: 2026-06-22 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy app icon and brand name"
 date: 2026-06-22 19:57:00 +0300
 lang: en
 categories: [LazyDaddy]
@@ -52,9 +56,9 @@ When you want to encourage reading but are physically exhausted, getting help fr
 
 If you’d like to see the adorable sight of a child fully absorbed in a book, along with the lively video, check it out directly through the YouTube link below! 👇
 
-🎥 **Watch the video:** [LazyDaddy - A Must-Have Parenting Automation App](https://www.youtube.com/watch?v=yPZvwTo6rQQ)
+{% include youtube-embed.html id="yPZvwTo6rQQ" title="LazyDaddy - A Must-Have Parenting Automation App" %}
 
-[Find LazyDaddy on Google Play](https://play.google.com/store/apps/details?id=io.ocxeverywhere.easyreader)
+{% include link-preview.html url="https://play.google.com/store/apps/details?id=io.ocxeverywhere.easyreader" title="Find LazyDaddy on Google Play" description="An Android app that recognizes storybook pages and reads them aloud with natural narration." image="/assets/images/posts/lazydaddy-app.png" alt="LazyDaddy app icon" %}
 
 To every parent out there today: stay strong! You’ve got this! ❤️
 

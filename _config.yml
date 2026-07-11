@@ -10,6 +10,14 @@ theme: jekyll-theme-chirpy
 author:
   name: LazyDaddy
   email: ocxeverywhere@gmail.com
+  image: /assets/img/social/default-card.png
+
+publisher:
+  name: LazyDaddy
+  image: /assets/img/social/default-card.png
+
+logo: /assets/img/social/default-card.png
+image: /assets/img/social/default-card.png
 
 social:
   name: LazyDaddy
@@ -29,7 +37,6 @@ pwa:
   cache:
     enabled: true
 
-paginate: 10
 permalink: /:categories/:title/
 
 plugins:
