@@ -3,8 +3,8 @@ title: "Self-Development on Your Commute: How to Listen to YouTube"
 description: "Discover a new way to practice digital detox by using JustListen to enjoy valuable YouTube content through audio, away from screens and Shorts."
 last_modified_at: 2026-06-23 09:00:00 +0300
 image:
-  path: /assets/img/social/default-card.png
-  alt: "LazyDaddy app icon and brand name"
+  path: /assets/images/posts/justlisten-youtube-audio-feature-en.png
+  alt: "Feature illustration showing YouTube content listened to through JustListen without watching the screen"
 date: 2026-06-23 06:50:00 +0300
 lang: en
 categories: [JustListen]
@@ -75,6 +75,8 @@ That means:
 ✅ Full focus on the content itself
 
 You can listen to the YouTube content you want just as you would listen to an audiobook or podcast.
+
+![Feature illustration showing YouTube content listened to through JustListen without watching the screen](/assets/images/posts/justlisten-youtube-audio-feature-en.png)
 
 ---
 
