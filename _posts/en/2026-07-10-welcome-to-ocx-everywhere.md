@@ -1,6 +1,10 @@
 ---
 title: "Welcome to the OCX Everywhere Blog"
 description: "A guide to the product stories, app notes, and engineering articles published by OCX Everywhere."
+last_modified_at: 2026-07-10 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy app icon and brand name"
 date: 2026-07-10 09:00:00 +0300
 lang: en
 categories: [Updates]

@@ -1,6 +1,10 @@
 ---
 title: "출퇴근길 자기계발, 유튜브를 귀로 듣는 방법"
 description: "화면과 쇼츠에서 벗어나 JustListen으로 유튜브의 좋은 콘텐츠를 귀로 듣는 디지털 디톡스 방법을 소개합니다."
+last_modified_at: 2026-06-23 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy 앱 아이콘과 브랜드 이름"
 date: 2026-06-23 06:50:00 +0300
 lang: ko
 categories: [JustListen]
@@ -144,10 +148,10 @@ JustListen은 바로 이런 고민에서 시작되었습니다.
 
 오직 듣기에만 집중할 수 있도록 만들어졌습니다.
 
-👉 [JustListen 공식 소개 페이지](https://ocxeverywhere.github.io/JustListen-DigitalDetox/)
+{% include link-preview.html url="https://ocxeverywhere.github.io/JustListen-DigitalDetox/" title="JustListen 공식 소개 페이지" description="유튜브 자막을 자연스러운 음성으로 변환해 화면 없이 들을 수 있는 앱입니다." image="/assets/images/posts/justlisten-app.png" alt="JustListen 앱 아이콘" %}
 
 지금 바로 구글 플레이에서 만나보세요.
 
-[JustListen - Digital Detox - Google Play](https://play.google.com/store/apps/details?id=io.ocxeverywhere.justlisten)
+{% include link-preview.html url="https://play.google.com/store/apps/details?id=io.ocxeverywhere.justlisten" title="JustListen - Digital Detox - Google Play" description="좋은 콘텐츠에만 집중하도록 돕는 화면 없는 듣기 앱을 설치하세요." image="/assets/images/posts/justlisten-app.png" alt="JustListen 앱 아이콘" %}
 
 #JustListen #디지털디톡스 #DigitalDetox #유튜브듣기 #유튜브오디오 #유튜브백그라운드재생 #자기계발앱 #생산성앱 #집중력향상 #오디오학습 #출퇴근공부 #영어공부앱 #유튜브활용법 #시간관리 #스마트폰중독 #앱추천 #안드로이드앱 #유튜브자막 #오디오북 #팟캐스트

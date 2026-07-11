@@ -1,6 +1,10 @@
 ---
 title: "[App Development Journey #1] Building My First Android App with Claude Code During Parental Leave"
 description: "How I used parental leave and Claude Code to turn a personal idea into my first Android app."
+last_modified_at: 2026-06-23 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy app icon and brand name"
 date: 2026-06-23 15:58:00 +0300
 lang: en
 categories: [App Development]

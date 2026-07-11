@@ -1,6 +1,10 @@
 ---
 title: "Self-Development on Your Commute: How to Listen to YouTube"
 description: "Discover a new way to practice digital detox by using JustListen to enjoy valuable YouTube content through audio, away from screens and Shorts."
+last_modified_at: 2026-06-23 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy app icon and brand name"
 date: 2026-06-23 06:50:00 +0300
 lang: en
 categories: [JustListen]
@@ -144,10 +148,10 @@ reduce unnecessary screen consumption,
 
 and focus entirely on listening.
 
-👉 [JustListen Official Page](https://ocxeverywhere.github.io/JustListen-DigitalDetox/)
+{% include link-preview.html url="https://ocxeverywhere.github.io/JustListen-DigitalDetox/" title="JustListen Official Page" description="Turn YouTube captions into natural speech and listen without keeping the screen on." image="/assets/images/posts/justlisten-app.png" alt="JustListen app icon" %}
 
 Find it now on Google Play.
 
-[JustListen - Digital Detox - Google Play](https://play.google.com/store/apps/details?id=io.ocxeverywhere.justlisten)
+{% include link-preview.html url="https://play.google.com/store/apps/details?id=io.ocxeverywhere.justlisten" title="JustListen - Digital Detox - Google Play" description="Install the screen-free listening app that helps you focus on useful content." image="/assets/images/posts/justlisten-app.png" alt="JustListen app icon" %}
 
 #JustListen #DigitalDetox #ListenToYouTube #YouTubeAudio #YouTubeBackgroundPlayback #SelfDevelopmentApp #ProductivityApp #ImproveFocus #AudioLearning #CommuteLearning #EnglishLearningApp #YouTubeTips #TimeManagement #SmartphoneAddiction #AppRecommendation #AndroidApp #YouTubeCaptions #Audiobook #Podcast

@@ -2,12 +2,17 @@
 title: "TODO: English post title"
 description: "TODO: One-sentence summary for search results and post cards."
 date: 2026-07-10 09:00:00 +0300
+last_modified_at: 2026-07-10 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "TODO: Descriptive alt text for the social image"
 lang: en
 categories: [TODO]
 tags: [TODO]
 permalink: /en/blog/posts/todo-slug/
 author: LazyDaddy
 published: false
+sitemap: false
 ---
 
 # TODO: English post title

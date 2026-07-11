@@ -8,6 +8,11 @@ tags: [sample]
 permalink: /blog/posts/korean-blog-sample/
 author: LazyDaddy
 published: false
+sitemap: false
+last_modified_at: 2026-07-10 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy 앱 아이콘과 브랜드 이름"
 ---
 
 # 한국어 블로그 예시 — 게시 전 교체

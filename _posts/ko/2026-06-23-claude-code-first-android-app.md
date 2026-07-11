@@ -1,6 +1,10 @@
 ---
 title: "[앱 개발 도전기 #1] 육아휴직 중 클로드 코드로 첫 안드로이드 앱 만들기"
 description: "클로드 코드와 함께 나만의 아이디어를 안드로이드 앱으로 만들고 출시까지 도전하는 이야기입니다."
+last_modified_at: 2026-06-23 09:00:00 +0300
+image:
+  path: /assets/img/social/default-card.png
+  alt: "LazyDaddy 앱 아이콘과 브랜드 이름"
 date: 2026-06-23 15:58:00 +0300
 lang: ko
 categories: [앱 개발]
