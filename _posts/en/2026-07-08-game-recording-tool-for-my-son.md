@@ -24,7 +24,11 @@ RIVALS is a first-person shooter featuring Roblox characters, and he plays on a 
 
 {% include link-preview.html url="https://link.coupang.com/a/fdyeSLJCdE" title="Kakao Friends Wireless Bread Chun-sik Mouse" description="The wireless mouse used for Roblox gameplay in this story." image="/assets/images/posts/coupang-mouse.jpg" alt="Chun-sik wireless mouse preview" sponsored=true %}
 
-{% include link-preview.html url="https://www.youtube.com/channel/UC2r3Z3jOIA9laB1P8O8sUxg" title="Jiun's Gaming YouTube Channel" description="Watch Roblox gameplay videos created with LazyDaddy Game Recording." image="/assets/images/posts/lazydaddy-youtube-video.jpg" alt="Jiun's Gaming YouTube channel preview" %}
+![Jiun Games YouTube channel celebrating 1,000 subscribers](/assets/images/posts/jiun-game-channel.png)
+
+*The Jiun Games YouTube channel celebrating 1,000 subscribers*
+
+{% include link-preview.html url="https://www.youtube.com/channel/UC2r3Z3jOIA9laB1P8O8sUxg" title="Jiun's Gaming YouTube Channel" description="Watch Roblox gameplay videos created with LazyDaddy Game Recording." image="/assets/images/posts/jiun-game-youtube-preview.png" alt="Black and gold Jiun Game YouTube channel preview" %}
 
 Roblox is also incredibly popular among elementary school students here in Finland, and items like this are popular birthday gifts.
 
@@ -33,6 +37,10 @@ Roblox is also incredibly popular among elementary school students here in Finla
 One day, he created a YouTube account and started uploading gaming videos. They were simply gameplay recordings, with no commentary and without showing his face.
 
 The recording software was paid, so he would use a free trial until it expired, then search for and install another program, and then another. I felt bad watching him go through that, so I started this project to make him a Windows application that could capture video with the basic features he needed.
+
+![Roblox RIVALS gameplay video](/assets/images/posts/roblox-rivals-28k-video.png)
+
+*The Roblox RIVALS gameplay video that caught the algorithm and reached 28K views*
 
 Roblox RIVALS — the video that somehow caught the algorithm and reached 28K views (we still have no idea why it took off)
 
@@ -44,6 +52,10 @@ I submitted v1.0.3, and a few days later I received comments requesting improvem
 
 I fixed it, tested it myself, had my son test it in actual use, collected his feedback, improved it, and submitted it for approval again. After repeating this process about three times, the version reached v1.0.10, while the feature set became a little simpler.
 
+![Roblox RIVALS video recorded with LazyDaddy Game Recording and PIP](/assets/images/posts/lazydaddy-game-recording-pip.png)
+
+*A game recording made with the PIP feature in LazyDaddy Game Recording v1.0.8*
+
 A RIVALS YouTube video created with LazyDaddy Game Recording v1.0.8 (with PIP)
 
 With the PIP feature, he can react enthusiastically like the YouTubers he enjoys watching. Perhaps that will help him create more entertaining YouTube videos to share with his friends.
@@ -53,6 +65,10 @@ It can get a little noisy sometimes, so a gaming headset like this would be real
 {% include link-preview.html url="https://link.coupang.com/a/fdx5HUfYqa" title="OMIIYA Virtual 7.1-Channel USB Gaming Headset" description="A USB headset suitable for game recording and voice reactions." image="/assets/images/posts/coupang-headset.jpg" alt="USB gaming headset preview" sponsored=true %}
 
 Then, at last, I received a notification today that the app had finally been published on the Microsoft Store.
+
+![LazyDaddy Game Recording app listing in the Microsoft Store](/assets/images/posts/microsoft-store-lazydaddy-game-recording.png)
+
+*LazyDaddy Game Recording officially listed in the Microsoft Store*
 
 For now, I plan to keep maintaining this app for free unless our power user raises complaints or requests improvements.
 
