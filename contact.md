@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 문의
-description: OCX Everywhere 앱, 개인정보 또는 사업 관련 사항을 LazyDaddy에게 문의하세요.
+description: LazyDaddy 앱, 개인정보 또는 사업 관련 사항을 문의하세요.
 lang: ko
 permalink: /contact/
 translation_url: /en/contact/

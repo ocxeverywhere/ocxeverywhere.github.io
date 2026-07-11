@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Support
-description: Get help with an OCX Everywhere app or support independent development.
+description: Get help with a LazyDaddy app or support independent development.
 lang: en
 permalink: /en/support/
 translation_url: /support/

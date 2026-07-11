@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-description: Contact LazyDaddy about OCX Everywhere apps, privacy, or business matters.
+description: Contact LazyDaddy about apps, privacy, or business matters.
 lang: en
 permalink: /en/contact/
 translation_url: /contact/

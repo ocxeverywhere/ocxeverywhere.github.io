@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Privacy
-description: Privacy information for the OCX Everywhere website.
+description: Privacy information for the LazyDaddy website.
 lang: en
 permalink: /en/privacy/
 translation_url: /privacy/
@@ -9,7 +9,7 @@ translation_url: /privacy/
 
 # Website Privacy
 
-This page describes the OCX Everywhere website at `ocxeverywhere.github.io`. Individual apps may process information differently; consult the privacy policy on the relevant app website for product-specific details.
+This page describes the LazyDaddy website at `ocxeverywhere.github.io`. Individual apps may process information differently; consult the privacy policy on the relevant app website for product-specific details.
 
 ## Website hosting
 

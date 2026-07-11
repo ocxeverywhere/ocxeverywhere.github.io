@@ -22,13 +22,13 @@ These days, he mostly plays Roblox. RIVALS is his favorite, and he is a light us
 
 RIVALS is a first-person shooter featuring Roblox characters, and he plays on a team with his friends every day. He even manages to land perfectly timed kills with this Chun-sik mouse that we brought from Korea, which became a huge hit with his classmates.
 
-{% include link-preview.html url="https://link.coupang.com/a/fdyeSLJCdE" title="Kakao Friends Wireless Bread Chun-sik Mouse" description="The wireless mouse used for Roblox gameplay in this story." image="/assets/images/posts/coupang-mouse.svg" alt="Chun-sik wireless mouse preview" sponsored=true %}
+{% include link-preview.html url="https://link.coupang.com/a/fdyeSLJCdE" title="Kakao Friends Wireless Bread Chun-sik Mouse" description="The wireless mouse used for Roblox gameplay in this story." image="/assets/images/posts/coupang-mouse.jpg" alt="Chun-sik wireless mouse preview" sponsored=true %}
 
 {% include link-preview.html url="https://www.youtube.com/channel/UC2r3Z3jOIA9laB1P8O8sUxg" title="Jiun's Gaming YouTube Channel" description="Watch Roblox gameplay videos created with LazyDaddy Game Recording." image="/assets/images/posts/lazydaddy-youtube-video.jpg" alt="Jiun's Gaming YouTube channel preview" %}
 
 Roblox is also incredibly popular among elementary school students here in Finland, and items like this are popular birthday gifts.
 
-{% include link-preview.html url="https://link.coupang.com/a/fdxK6RDIM8" title="ROBLOX Pencil Case and Gift Merchandise" description="A pencil case gift for children who enjoy Roblox." image="/assets/images/posts/coupang-roblox-case.svg" alt="Roblox pencil case preview" sponsored=true %}
+{% include link-preview.html url="https://link.coupang.com/a/fdxK6RDIM8" title="ROBLOX Pencil Case and Gift Merchandise" description="A pencil case gift for children who enjoy Roblox." image="/assets/images/posts/coupang-roblox-case.jpg" alt="Roblox pencil case preview" sponsored=true %}
 
 One day, he created a YouTube account and started uploading gaming videos. They were simply gameplay recordings, with no commentary and without showing his face.
 
@@ -50,7 +50,7 @@ With the PIP feature, he can react enthusiastically like the YouTubers he enjoys
 
 It can get a little noisy sometimes, so a gaming headset like this would be really useful.
 
-{% include link-preview.html url="https://link.coupang.com/a/fdx5HUfYqa" title="OMIIYA Virtual 7.1-Channel USB Gaming Headset" description="A USB headset suitable for game recording and voice reactions." image="/assets/images/posts/coupang-headset.svg" alt="USB gaming headset preview" sponsored=true %}
+{% include link-preview.html url="https://link.coupang.com/a/fdx5HUfYqa" title="OMIIYA Virtual 7.1-Channel USB Gaming Headset" description="A USB headset suitable for game recording and voice reactions." image="/assets/images/posts/coupang-headset.jpg" alt="USB gaming headset preview" sponsored=true %}
 
 Then, at last, I received a notification today that the app had finally been published on the Microsoft Store.
 

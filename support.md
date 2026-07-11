@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 지원
-description: OCX Everywhere 앱에 대한 도움을 받거나 독립 개발을 후원하는 방법을 안내합니다.
+description: LazyDaddy 앱에 대한 도움을 받거나 독립 개발을 후원하는 방법을 안내합니다.
 lang: ko
 permalink: /support/
 translation_url: /en/support/

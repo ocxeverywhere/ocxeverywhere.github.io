@@ -1,6 +1,6 @@
 ---
-title: "Welcome to the OCX Everywhere Blog"
-description: "A guide to the product stories, app notes, and engineering articles published by OCX Everywhere."
+title: "Welcome to the LazyDaddy Blog"
+description: "A guide to the product stories, app notes, and engineering articles published by LazyDaddy."
 last_modified_at: 2026-07-10 09:00:00 +0300
 image:
   path: /assets/img/social/default-card.png
@@ -8,14 +8,14 @@ image:
 date: 2026-07-10 09:00:00 +0300
 lang: en
 categories: [Updates]
-tags: [ocx-everywhere, apps]
+tags: [lazydaddy, apps]
 permalink: /en/blog/posts/welcome-to-ocx-everywhere/
 author: LazyDaddy
 ---
 
-# Welcome to the OCX Everywhere Blog
+# Welcome to the LazyDaddy Blog
 
-OCX Everywhere now has a dedicated place for articles alongside the app portfolio. The English blog will collect practical notes about the products and the work behind them.
+LazyDaddy now has a dedicated place for articles alongside the app portfolio. The English blog will collect practical notes about the products and the work behind them.
 
 ## What to expect
 
@@ -29,7 +29,7 @@ The [English Blog](/en/blog/) lists English posts. Korean posts have their own i
 
 ## Find an app
 
-The [OCX Everywhere portal](/#apps) links to the current app websites and store listings for LazyDaddy, JustListen, and LazyDaddy Game Recording.
+The [LazyDaddy portal](/#apps) links to the current app websites and store listings for LazyDaddy, JustListen, and LazyDaddy Game Recording.
 
 ## Get in touch
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 개인정보 안내
-description: OCX Everywhere 웹사이트의 개인정보 관련 안내입니다.
+description: LazyDaddy 웹사이트의 개인정보 관련 안내입니다.
 lang: ko
 permalink: /privacy/
 translation_url: /en/privacy/
@@ -9,7 +9,7 @@ translation_url: /en/privacy/
 
 # 웹사이트 개인정보 안내
 
-이 페이지는 `ocxeverywhere.github.io`의 OCX Everywhere 웹사이트에 관한 안내입니다. 개별 앱은 서로 다른 방식으로 정보를 처리할 수 있으므로 제품별 자세한 내용은 해당 앱 웹사이트의 개인정보처리방침을 확인해 주세요.
+이 페이지는 `ocxeverywhere.github.io`의 LazyDaddy 웹사이트에 관한 안내입니다. 개별 앱은 서로 다른 방식으로 정보를 처리할 수 있으므로 제품별 자세한 내용은 해당 앱 웹사이트의 개인정보처리방침을 확인해 주세요.
 
 ## 웹사이트 호스팅
 
