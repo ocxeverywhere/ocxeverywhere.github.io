@@ -1,15 +1,15 @@
 ---
 layout: default
 title: About
-description: About OCX Everywhere and independent app developer LazyDaddy.
+description: About LazyDaddy and independent app development.
 lang: en
 permalink: /en/about/
 translation_url: /about/
 ---
 
-# About OCX Everywhere
+# About LazyDaddy
 
-OCX Everywhere is the home of practical Android and Windows apps made by LazyDaddy. The site brings the app portfolio together with product notes, app guides, and engineering articles.
+LazyDaddy makes and showcases practical Android and Windows apps. The site brings the app portfolio together with product notes, app guides, and engineering articles.
 
 ## What you will find here
 
@@ -20,7 +20,7 @@ OCX Everywhere is the home of practical Android and Windows apps made by LazyDad
 
 ## Current apps
 
-The portfolio includes LazyDaddy, JustListen, and LazyDaddy Game Recording. Their current websites and store listings are available from the [English OCX Everywhere portal](/en/#apps).
+The portfolio includes LazyDaddy, JustListen, and LazyDaddy Game Recording. Their current websites and store listings are available from the [English LazyDaddy portal](/en/#apps).
 
 ## Developer
 
