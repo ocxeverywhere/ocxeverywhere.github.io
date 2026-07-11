@@ -11,6 +11,7 @@ categories: [LazyDaddy]
 tags: [육아꿀팁, 영어홈스쿨링, 영어동화책, 페파피그, LazyDaddy, 육아자동화, 엄마표영어, 아빠표영어, PeppaPig, 영어원서, 영어그림책]
 permalink: /blog/posts/read-english-picture-books-with-lazydaddy/
 author: LazyDaddy
+translation_key: read-english-picture-books-with-lazydaddy
 ---
 
 > **광고 안내:** 이 페이지는 쿠팡 파트너스 활동의 일환으로, 링크를 통한 구매 시 일정액의 수수료를 제공받을 수 있습니다.
