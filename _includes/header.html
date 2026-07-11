@@ -5,7 +5,7 @@
   {% if page.translation_key %}{% assign translations = site.posts | where: 'translation_key', page.translation_key %}{% if translations.size > 1 %}{% if language == 'ko' %}{% assign other_post = translations | where: 'lang', 'en' | first %}{% else %}{% assign other_post = translations | where: 'lang', 'ko' | first %}{% endif %}{% if other_post %}{% assign other_url = other_post.url %}{% endif %}{% endif %}{% endif %}
   {% unless other_url %}{% if page.layout == 'post' %}{% if language == 'ko' %}{% assign other_url = '/en/blog/' %}{% else %}{% assign other_url = '/blog/' %}{% endif %}{% elsif language == 'ko' %}{% assign other_url = '/en/' %}{% else %}{% assign other_url = '/' %}{% endif %}{% endunless %}
   <nav class="nav" aria-label="{% if language == 'ko' %}주요 메뉴{% else %}Primary navigation{% endif %}">
-    <a class="brand" href="{{ home_url | relative_url }}"><span class="brand-mark">LazyDaddy</span><span>LazyDaddy</span></a>
+    <a class="brand" href="{{ home_url | relative_url }}"><span class="brand-mark">LazyD</span><span>LazyDaddy</span></a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">{% if language == 'ko' %}메뉴{% else %}Menu{% endif %}</button>
     <div id="site-navigation" class="nav-links">
       {% for item in site.data.navigation[language] %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
