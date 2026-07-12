@@ -4,7 +4,7 @@ description: "A parenting story about using LazyDaddy to read a Peppa Pig pictur
 date: 2026-06-23 15:30:00 +0900
 last_modified_at: 2026-07-12 12:00:00 +0300
 image:
-  path: /assets/images/posts/224324636613-english-book-clip.jpg
+  path: /assets/images/posts/224324636613-english-book-clip-en.jpg
   alt: "LazyDaddy clip preview of a father and child getting ready to read an English picture book"
 lang: en
 categories: [LazyDaddy]
@@ -28,7 +28,7 @@ It is that moment when you realize, **“Oh, today they brought an English book.
 
 Can you already feel the panic setting in just from the title? Let’s watch a short clip first.
 
-{% include link-preview.html url="https://m.blog.naver.com/lazydaddypresent0523/clip/15144573" title="I Said, ‘Pick Any Book,’ and My Child Chose an English Picture Book!" description="A Naver clip showing a briefly flustered dad using LazyDaddy to read an English book with his child." image="/assets/images/posts/224324636613-english-book-clip.jpg" alt="Naver clip preview of the moment a child chooses an English picture book" %}
+{% include link-preview.html url="https://m.blog.naver.com/lazydaddypresent0523/clip/15144573" title="I Said, ‘Pick Any Book,’ and My Child Chose an English Picture Book!" description="A Naver clip showing a briefly flustered dad using LazyDaddy to read an English book with his child." image="/assets/images/posts/224324636613-english-book-clip-en.jpg" alt="English-localized Naver clip preview of the moment a child chooses an English picture book" %}
 
 ## “Pick Any Book”—But Why That One?!
 

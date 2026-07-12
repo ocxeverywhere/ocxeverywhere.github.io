@@ -3,7 +3,7 @@ title: "Multicultural Parenting: An Easier Way to Read Korean Storybooks Togethe
 description: "Learn how parents in multicultural families can enjoy Korean storybooks with their children, even when Korean pronunciation or reading feels difficult, with help from LazyDaddy."
 last_modified_at: 2026-07-12 12:00:00 +0300
 image:
-  path: /assets/images/posts/lazydaddy-multicultural-korean-storybook-reading.png
+  path: /assets/images/posts/lazydaddy-multicultural-korean-storybook-reading-en.png
   alt: "A parent and child reading a storybook together with help from the LazyDaddy app"
 date: 2026-06-30 21:21:00 +0300
 lang: en
@@ -24,7 +24,7 @@ Some families may have a different concern.
 
 More families share these worries than you might expect. But now, things can be a little different.
 
-![A parent and child looking at a picture book while listening to a Korean story with the LazyDaddy app](/assets/images/posts/lazydaddy-multicultural-korean-storybook-reading.png)
+![A parent and child reading together with English-localized speech bubbles](/assets/images/posts/lazydaddy-multicultural-korean-storybook-reading-en.png)
 
 ## Let the App Help with the Korean
 
