@@ -3,7 +3,7 @@ title: "[App Development Journey #4] Is the Work Over When Development Is Done?"
 description: "A solo developer's honest account of finishing apps with AI, then learning the harder lessons of marketing, search visibility, customer problems, and business."
 last_modified_at: 2026-07-12 01:16:00 +0300
 image:
-  path: /assets/images/posts/app-development-beyond-coding.png
+  path: /assets/images/posts/app-development-beyond-coding-en.png
   alt: "A solo developer facing the new challenges of marketing and business after finishing an app"
 date: 2026-07-12 01:16:00 +0300
 lang: en
@@ -40,7 +40,7 @@ I offer every app and program I have built for free because I still do not have 
 
 Threads, however, was extremely sensitive to activity that appeared to be advertising or AI-driven. In the end, my account was permanently suspended twice. I was stopped while trying to grow my follower count before I had even managed to promote anything properly. I wrote about that experience in an earlier post.
 
-{% include link-preview.html url="https://blog.naver.com/lazydaddypresent0523/224335892630" title="[Contains Advertising] Do You Know Follow-for-Follow on Threads?" description="An earlier post about the trial and error I experienced while trying to grow a following on Threads." image="/assets/images/posts/threads-follow-back-preview.png" alt="Preview of a Naver Blog post about my follow-for-follow experience on Threads" sponsored=true %}
+{% include link-preview.html url="https://blog.naver.com/lazydaddypresent0523/224335892630" title="[Contains Advertising] Do You Know Follow-for-Follow on Threads?" description="An earlier post about the trial and error I experienced while trying to grow a following on Threads." image="/assets/images/posts/threads-follow-back-preview-en.png" alt="English-localized preview of a Naver Blog post about my follow-for-follow experience on Threads" sponsored=true %}
 
 ## Rebuilding My GitHub Pages Site for Global Search
 
@@ -74,7 +74,7 @@ In the end, if I want to run a business, I need to understand business. I still 
 
 Even so, I feel incredibly fortunate that AI can accelerate not only development but all of these other areas as well, helping me move through trial and error much faster.
 
-![An illustration of a solo developer facing marketing and business challenges after finishing an app](/assets/images/posts/app-development-beyond-coding.png)
+![English-localized four-panel illustration of a solo developer learning marketing and business after finishing an app](/assets/images/posts/app-development-beyond-coding-en.png)
 
 *A new journey into marketing and business began after development was complete.*
 
